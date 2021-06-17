@@ -1,13 +1,180 @@
 body {
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
+.maluj{
+  background-color:rgb(245, 247, 249);
+}
+.color{
+  background-color: white;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.SearchBox{
+  position: absolute;
+  left: 30%;
+  width: 40% !important;
+  text-align: center;
+  top: 20%;
+}
+
+
+.radius{
+  border: 1px solid rgb(75,82,104);
+  border-radius: 5px;
+  padding: 5%;
+}
+.lupka{
+  position: absolute;
+  left: 68.5%;
+  top: 40%;
+}
+#exampleInputEmail1{
+  width: 90% !important;
+}
+.grey{
+color: rgb(135,139,145);
+}
+.menuBorder{
+
+  border: 3px  rgb(233, 233, 234) solid; 
+}
+.mRFilter{
+  margin-right: -2vh;
+  
+}
+.menuMLeft{
+  margin-left: 1.5rem;
+}
+.LeftMenu{
+  width:50vh;
+ position:absolute;
+ left:1%;
+ margin-top: 1%;
+}
+.MainRight{
+  
+  width: 100%;
+  height: 100%;
+}
+.work{
+height: 75%;
+width: 15%;
+background-color: white;
+border-radius: 5%;
+font-size: 80%;
+position: relative;
+margin-left: 1.18rem;
+}
+.twins{
+width: 100%;
+display: flex;
+position: relative;
+height: 220px;
+margin-top: 2%;
+}
+.comment{
+  width: 100%;
+    background-color: white;
+    height: 150px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+   
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 1px 8px 1px #aaaaaa;
+    border: 1px white solid;
+}
+.comment_sector{
+  padding-top: 2rem;
+  display: flex;
+}
+.comment_move{
+  padding-top: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.entities_flex{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.entities_collumn{
+  display:block;
+  margin-top: 1rem;
+}
+.a{
+  width:970px;
+ height: 140px;
+  margin-right:1rem;
+  position: relative;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  box-shadow: 0px 1px 8px 1px #aaaaaa;
+  border: 1px white solid;
+  padding-top: 0.25rem;
+  padding-left: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.b{
+  width:23.5%;
+  height: 99px;
+  margin-right:1rem;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0px 1px 8px 1px #aaaaaa;
+    border: 1px white solid;
+  padding-top: 0.25rem;
+  padding-left: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-bottom:1rem;
+}
+.c{
+  width:13%;
+  height: 100%;
+}
+.d{
+  width:33%;
+  height: 100%;
+}
+.e{
+  width: 63%;
+  height: 100%;
+  position: absolute;
+  left: 15%;
+  top: 0;
+}
+.f{
+  width: 63%;
+  height: 100%;
+  position: absolute;
+  left: 35%;
+  top: 0;
+}
+.grey{
+  color:grey;
+}
+.filters{
+  box-shadow: 0px 1px 8px 1px #aaaaaa;
+  border: 1px white solid;
+  padding:1rem;
+  border-radius: 25px;
+  width: 60%;
+}
+.filters_none{
+  display: none;
+}
+.borderShadow{
+  box-shadow: 0px 1px 8px 1px #aaaaaa;
+  border: 1px white solid;
 }
